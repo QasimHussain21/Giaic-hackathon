@@ -1,0 +1,25 @@
+# Values for the todo-app umbrella chart
+
+todo-frontend:
+  replicaCount: 1
+  image:
+    repository: todo-frontend
+    pullPolicy: IfNotPresent
+    tag: "latest"
+  service:
+    type: ClusterIP
+    port: 3000
+  ingress:
+    enabled: false
+
+todo-backend:
+  replicaCount: 1
+  image:
+    repository: todo-backend
+    pullPolicy: IfNotPresent
+    tag: "latest"
+  service:
+    type: ClusterIP
+    port: 8000
+  ingress:
+    enabled: false
