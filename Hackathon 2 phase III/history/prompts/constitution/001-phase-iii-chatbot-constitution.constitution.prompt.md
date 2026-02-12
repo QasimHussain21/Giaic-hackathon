@@ -87,10 +87,6 @@ Deliverables and Success Criteria – Working chatbot, repo updates, demo: natur
 
 Environment Variables:
 
-COHERE_API_KEY=YOUR_API_KEY_HERE
-
-
-<!-- COHERE_API_KEY=ZCpzCoO6NkF4Ed9TYZjbYKH3Stom3P1d1yNSdgCt (for AI calls) -->
 
 Use existing BETTER_AUTH_SECRET, DATABASE_URL.
 
