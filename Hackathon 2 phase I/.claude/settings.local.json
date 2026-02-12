@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell.exe:*)",
+      "Bash(if [ -d \"specs/001-console-todo/checklists\" ])",
+      "Bash(then ls -1 specs/001-console-todo/checklists/*.md)",
+      "Bash(else echo \"No checklists directory\")",
+      "Bash(fi)",
+      "Bash(uv:*)"
+    ]
+  }
+}
